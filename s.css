@@ -1,0 +1,37 @@
+html{
+    background-color: rgba(221, 216, 208, 0.858);
+    border:solid;
+    padding: 30px;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2,h3
+{
+    padding: 3px;
+}
+
+.sush,
+input[type="text"],
+input[type="e-mail"],
+input[type="pincode"],
+input[type="date"],
+input[type="cardnumber"],
+textarea
+{
+ width:100%;  
+ padding: 12px;
+ border: solid rgb(195, 181, 171);
+ margin:10px;
+}
+input[type="submit"]:hover
+{
+ 
+    cursor: pointer;
+    background-color: rgba(88, 92, 97, 0.605);
+    border-radius:3px;
+    
+}
+

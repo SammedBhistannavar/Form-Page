@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="s.css">
+    <title>PAYMENT FORM</title>
+</head>
+<body class="container">
+    <div>
+    <header>
+        <h1>PAYMENT FROM</h1> 
+    <hr>   </header>
+   
+        <h2>User Information</h2>
+    <p>
+        Name: * <input type="text" placeholder="Sammed Bhistannavar" >
+    </p>
+    <p>Gender</p>
+    <p class ="sush">
+        Male <input type="radio" name="M"> Female <input type="radio"name="F">
+    </p>
+    <p>
+        Adress:
+    <br><textarea name="Adress" placeholder="Type-adress"id="Type-adress" cols="60" rows="10"></textarea>
+</p>
+    <p class="E-mail">E-mail: 
+        <input type="e-mail" name="email" id = "email" placeholder="Sam@gmail.com">
+    </p>
+    <p class="pincode">
+        Pincode:
+        <input type="pincode" name="pincode" id="pin code"placeholder="111-222">
+    </p> 
+    <h3>Payment Information</h3> <hr>
+    <div class="cardtype">Card-Type 
+       <select name="card-type" id="card-type" required>
+    <option value="">---Select card Type---</option>
+    <option value="">Credit-card</option>
+    <option value="">Debit card</option>
+       </div>
+</select>
+    </p>
+    <p classs="card">
+    Card-Number:
+    <input type="cardnumber" placeholder="1111-2222-3333-4444">
+    </p>
+    <p class="Expiry-date">
+        Expire-date:
+        <input type="date" name="Expiry" id="Expiry">
+    </p>
+    <p class="CVV">
+        CVV:
+        <input type="" name="cvv" id="cvv">
+    </p>
+</div>
+<footer>
+    <p>
+        <input type="submit" value="Pay Now">
+    </p>
+    
+</footer>
+</body>
+</html>
